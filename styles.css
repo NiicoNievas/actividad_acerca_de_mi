@@ -1,0 +1,60 @@
+header {
+    background-color: #f7e8e8;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+#info-personal, #habilidades, #instagram {
+    margin: 20px;
+    padding: 0px;
+    border: 3px solid #ccc;
+}
+#info-personal h2, #habilidades h2, #instagram h2 {
+    font-size: 24px;
+}
+.imagen {
+    width: 300px;
+}
+#habilidades ul {
+    list-style-type: square;
+}
+footer {
+    background-color: #f1f1f1;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    position: static; 
+    bottom: 0;
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    header, #info-personal, #habilidades, #instagram {
+        padding: 10px;
+    }
+    h1, h1{
+        font-size: 18px; 
+    }
+}
+@media only screen and (min-widht: 600px) and (mas-widht: 1024px) {
+    header, #info-personal, #habilidades, #instagram {
+        padding: 20px;
+    }
+    h1, h2 {
+        font-size: 22px;
+    }
+}
+@media only screen and (min-widht: 1025px) {
+    header, #info-personal, #habilidades, #instagram {
+        padding: 30px;
+    }
+    h1, h2 {
+        font-size: 28px;
+    }
+}
